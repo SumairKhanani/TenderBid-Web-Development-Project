@@ -1,0 +1,85 @@
+.dashboard {
+    margin-top: 20px;
+  }
+  .col-md-3{
+
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 0px;
+
+  }
+  .text-center {
+    
+    background-color: #f0f0f0;
+    font-size: 26px;
+    text-transform:uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 1300px; 
+    text-align: center;
+  }
+
+  
+  
+  .tender-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tender-image {
+    flex-basis: 30%;
+  }
+  
+  .tender-details {
+    flex-basis: 60%;
+  }
+  
+  .tender-details .card-body {
+    padding: 0;
+  }
+  
+  .bid-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lowest-bids-container {
+    margin-bottom: 20px;
+  }
+  
+  .lowest-bids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .delete-tender-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .tender-card-container {
+      flex-direction: column;
+    }
+    
+    .tender-image {
+      margin-bottom: 20px;
+    }
+    
+    .tender-details {
+      flex-basis: 100%;
+    }
+  }
+  

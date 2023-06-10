@@ -1,0 +1,114 @@
+.all-users-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .page-title {
+    background-color: #f0f0f0;
+    font-size: 26px;
+    text-transform:uppercase;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 1300px; 
+    text-align: center;
+  }
+  .page-subtitle {
+    
+    font-size: 15px;
+    text-transform:inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 1300px; 
+    text-align:justify;
+  }
+  
+  .user-sidebar {
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 1rem;
+  }
+  
+  .user-list {
+    flex: 1;
+    padding-left: 20px;
+    font-size: 24px;
+  }
+  
+  .user-count {
+    margin-bottom: 0px;
+    font-size: 150px;
+    color: #333;
+    text-align: center;
+
+  }
+  .h2{
+    font-size: 150px;
+    color: #333;
+
+  }
+  
+  .user-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .user-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .user-card:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .user-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .user-info {
+    flex: 1;
+  }
+  
+  .user-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .user-company,
+  .user-email,
+  .user-address,
+  .user-contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .user-icon {
+    margin-right: 5px;
+  }
+    
+  

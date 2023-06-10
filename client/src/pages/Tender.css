@@ -1,0 +1,76 @@
+
+.tender-container {
+    padding: 0px;
+  }
+  
+  .tender-title {
+    background-color: #f0f0f0;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 1300px; 
+  text-align: center;
+  }
+  .col-md-3{
+      margin-top: 0%;
+      top: 0%;
+      width: 250px;
+    background-color: #f8f8f8;
+    padding: 1rem;
+
+  }
+  
+  .tenders-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .tender-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .tender-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tender-card:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .tender-image {
+    text-align: center;
+  }
+  
+  .tender-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .tender-details {
+    margin-top: 10px;
+  }
+  
+  .tender-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tender-budget {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,91 @@
+.category-filter {
+    margin-bottom: 20px;
+  }
+  
+  #category-select {
+    padding: 8px;
+    font-size: 16px;
+  }
+  .categories-title{
+    font-size: 20px;
+  }
+  .categoriestender-heading{
+    align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+
+
+  }
+  .categoriestender-sidebar {
+    width: 200px;
+    background-color: #f5f5f5;
+    padding: 0rem;
+    height: calc(100vh - 100px);
+    margin-top: 23px;
+    position: absolute;
+    top: 65px;
+    margin-right: 20px;
+    
+  }
+  .tenders-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .tender-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .tender-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .tender-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tender-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .tender-card-details {
+    font-size: 16px;
+  }
+  
+  .tender-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+  
+  .tender-description {
+    margin-bottom: 10px;
+  }
+  
+  .tender-budget,
+  .tender-status {
+    margin-bottom: 5px;
+  }
+  
+  .no-tenders-message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #777;
+    padding: 20px;
+  }
+  
