@@ -1,5 +1,4 @@
 # TENDERBID-MAIN-PROJECT
-
 FINAL PROJECT -TENDERBID 
 GROUP MEMBERS:
 
@@ -31,4 +30,4 @@ database. Consumers will post his project and requirements while the
 contractors will bid on that project. One with the lowest bid will
 eventually win and get connected to the consumer for the project.
 TenderBid aims to get the work done in the lowest cost and the best
-quality for the consumers
+quality for the consumers.
